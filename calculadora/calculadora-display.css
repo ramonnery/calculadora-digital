@@ -1,0 +1,12 @@
+.calculadora__display {
+    border-radius: 7px;
+    box-shadow:inset -1px -1px 4px 1px rgba(116, 116, 116, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 170px;
+    margin: 8px auto;
+    width: 95%;
+    word-wrap: break-word;
+}

@@ -1,0 +1,7 @@
+.calculadora__display__informacao--atual {
+    color: #012840;
+    font-family: Signika, Roboto, sans-serif;
+    font-size: 40px;
+    margin-right: 1rem;
+    text-align: center;
+}

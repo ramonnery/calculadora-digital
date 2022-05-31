@@ -1,0 +1,82 @@
+.calculadora__botao {
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, .4);
+    color: #012840;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 65px;
+    margin: 2px;
+    transition: all .3s;
+    text-transform: uppercase;
+    width: 65px;
+}
+
+
+.calculadora__botao--numero {
+    background-color: white;
+    
+}
+
+.calculadora__botao--numero:hover {
+    background-color: #012840;
+    color: white;
+}
+
+.calculadora__botao--numero:active {
+    box-shadow:inset 3px 2px 4px 1px rgba(0, 0, 0, .4);
+    padding-right: .3px;
+    padding-top: .3px;
+}
+
+.calculadora__botao--operacao {
+    background-color: #BBDDF2;
+}
+
+.calculadora__botao--operacao:hover {
+    background-color: rgb(111, 127, 219);
+}
+
+.calculadora__botao--operacao:active {
+    box-shadow:inset 3px 2px 4px 1px rgba(0, 0, 0, .4);
+    padding-right: .3px;
+    padding-top: .3px;
+
+}
+
+.calculadora__botao--apagar {
+    background-color: #C3EED0;
+}
+
+.calculadora__botao--apagar:hover {
+    background-color: #7fe49d;
+}
+
+.calculadora__botao--apagar:active {
+    box-shadow:inset 3px 2px 4px 1px rgba(0, 0, 0, .4);
+    padding-right: .3px;
+    padding-top: .3px;
+
+}
+
+.calculadora__botao--resultado {
+    background-color: #F2D3D3;
+    grid-column: span 2;
+}
+
+.calculadora__botao--resultado:hover {
+    background-color: #eeadad;
+}
+
+.calculadora__botao--resultado:active {
+    box-shadow:inset 3px 2px 4px 1px rgba(0, 0, 0, .4);
+    padding-right: .3px;
+    padding-top: .3px;
+}
+
+.btn__igual {
+    grid-column: span 2;
+    width: 94%;
+}

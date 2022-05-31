@@ -1,0 +1,6 @@
+.calculadora__botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 4px 8px;
+    place-items: center;
+}

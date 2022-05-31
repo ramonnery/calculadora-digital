@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="fundo.css">
+    <link rel="stylesheet" href="calculadora/calculadora.css">
+    <link rel="stylesheet" href="calculadora/calculadora-display.css">
+    <link rel="stylesheet" href="calculadora/calculadora-botao.css">
+    <link rel="stylesheet" href="calculadora/calculadora-display-informacaoAtual.css">
+    <link rel="stylesheet" href="calculadora/calculadora-display-informacaoAnterior.css">
+    <link rel="stylesheet" href="calculadora/calculadora-botoes.css">
+</head>
+<body>
+    <section class="fundo">
+        <section class="calculadora">
+
+            <div class="calculadora__display">
+                <p class="calculadora__display__informacao--anterior"></p>
+                <p class="calculadora__display__informacao--atual"></p>
+            </div>
+
+            <div class="calculadora__botoes">
+                <button class="calculadora__botao calculadora__botao--apagar" v>CE</button>
+                <button class="calculadora__botao calculadora__botao--apagar" >C</button>
+                <button class="calculadora__botao calculadora__botao--apagar" >DEL</button>
+                <button class="calculadora__botao calculadora__botao--operacao" type="operacao">/</button>
+                <button class="calculadora__botao calculadora__botao--numero" >1</button>
+                <button class="calculadora__botao calculadora__botao--numero" >2</button>
+                <button class="calculadora__botao calculadora__botao--numero" >3</button>
+                <button class="calculadora__botao calculadora__botao--operacao" type="operacao" value="x">*</button>
+                <button class="calculadora__botao calculadora__botao--numero" >4</button>
+                <button class="calculadora__botao calculadora__botao--numero" >5</button>
+                <button class="calculadora__botao calculadora__botao--numero" >6</button>
+                <button class="calculadora__botao calculadora__botao--operacao" type="operacao">-</button>
+                <button class="calculadora__botao calculadora__botao--numero" >7</button>
+                <button class="calculadora__botao calculadora__botao--numero" >8</button>
+                <button class="calculadora__botao calculadora__botao--numero" >9</button>
+                <button class="calculadora__botao calculadora__botao--operacao" type="operacao" >+</button>
+                <button class="calculadora__botao calculadora__botao--operacao" type="operacao" >.</button>
+                <button class="calculadora__botao calculadora__botao--numero" >0</button>
+                <!-- <button class="calculadora__botao calculadora__botao--apagar calculadora__botao--ultima-linha">Del</button> -->
+                <button class="calculadora__botao calculadora__botao--resultado btn__igual" >=</button>
+            </div>
+
+        </section>
+    </section>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
